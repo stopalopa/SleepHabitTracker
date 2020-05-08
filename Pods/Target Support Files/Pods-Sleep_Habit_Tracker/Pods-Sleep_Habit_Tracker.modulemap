@@ -1,0 +1,6 @@
+framework module Pods_Sleep_Habit_Tracker {
+  umbrella header "Pods-Sleep_Habit_Tracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

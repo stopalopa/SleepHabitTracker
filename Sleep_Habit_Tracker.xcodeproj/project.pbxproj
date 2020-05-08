@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10959A20246124A600A71DAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10959A1F246124A600A71DAE /* AppDelegate.swift */; };
+		10959A22246124A600A71DAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10959A21246124A600A71DAE /* SceneDelegate.swift */; };
+		10959A24246124A600A71DAE /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10959A23246124A600A71DAE /* CalendarViewController.swift */; };
+		10959A27246124A600A71DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10959A25246124A600A71DAE /* Main.storyboard */; };
+		10959A29246124A700A71DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10959A28246124A700A71DAE /* Assets.xcassets */; };
+		10959A2C246124A700A71DAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10959A2A246124A700A71DAE /* LaunchScreen.storyboard */; };
+		10959A342465EE8E00A71DAE /* HabitInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10959A332465EE8E00A71DAE /* HabitInfoTableViewController.swift */; };
+		AFE5C6A8E73CD5128DABAA6E /* Pods_Sleep_Habit_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0015C75DC8BEDA804CC4B65 /* Pods_Sleep_Habit_Tracker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10959A1C246124A600A71DAE /* SleepHabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepHabitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10959A1F246124A600A71DAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10959A21246124A600A71DAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		10959A23246124A600A71DAE /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		10959A26246124A600A71DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10959A28246124A700A71DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10959A2B246124A700A71DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10959A2D246124A700A71DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10959A332465EE8E00A71DAE /* HabitInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitInfoTableViewController.swift; sourceTree = "<group>"; };
+		7A0C8FF637615B3660A2F1D8 /* Pods-Sleep_Habit_Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sleep_Habit_Tracker.release.xcconfig"; path = "Target Support Files/Pods-Sleep_Habit_Tracker/Pods-Sleep_Habit_Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		A0015C75DC8BEDA804CC4B65 /* Pods_Sleep_Habit_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sleep_Habit_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A154F2AC72EE2101714E2B /* Pods-Sleep_Habit_Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sleep_Habit_Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Sleep_Habit_Tracker/Pods-Sleep_Habit_Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10959A19246124A600A71DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE5C6A8E73CD5128DABAA6E /* Pods_Sleep_Habit_Tracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10959A13246124A600A71DAE = {
+			isa = PBXGroup;
+			children = (
+				10959A1E246124A600A71DAE /* Sleep_Habit_Tracker */,
+				10959A1D246124A600A71DAE /* Products */,
+				E90D25F1C7E91EB48367100A /* Pods */,
+				6B43147D9873A72F00BCAB63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10959A1D246124A600A71DAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10959A1C246124A600A71DAE /* SleepHabitTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10959A1E246124A600A71DAE /* Sleep_Habit_Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				10959A1F246124A600A71DAE /* AppDelegate.swift */,
+				10959A21246124A600A71DAE /* SceneDelegate.swift */,
+				10959A23246124A600A71DAE /* CalendarViewController.swift */,
+				10959A25246124A600A71DAE /* Main.storyboard */,
+				10959A28246124A700A71DAE /* Assets.xcassets */,
+				10959A2A246124A700A71DAE /* LaunchScreen.storyboard */,
+				10959A2D246124A700A71DAE /* Info.plist */,
+				10959A332465EE8E00A71DAE /* HabitInfoTableViewController.swift */,
+			);
+			path = Sleep_Habit_Tracker;
+			sourceTree = "<group>";
+		};
+		6B43147D9873A72F00BCAB63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0015C75DC8BEDA804CC4B65 /* Pods_Sleep_Habit_Tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E90D25F1C7E91EB48367100A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3A154F2AC72EE2101714E2B /* Pods-Sleep_Habit_Tracker.debug.xcconfig */,
+				7A0C8FF637615B3660A2F1D8 /* Pods-Sleep_Habit_Tracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10959A1B246124A600A71DAE /* Sleep_Habit_Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10959A30246124A700A71DAE /* Build configuration list for PBXNativeTarget "Sleep_Habit_Tracker" */;
+			buildPhases = (
+				BDC25513118E15538EDF6237 /* [CP] Check Pods Manifest.lock */,
+				10959A18246124A600A71DAE /* Sources */,
+				10959A19246124A600A71DAE /* Frameworks */,
+				10959A1A246124A600A71DAE /* Resources */,
+				66B69D89D327EEB61220A333 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sleep_Habit_Tracker;
+			productName = Sleep_Habit_Tracker;
+			productReference = 10959A1C246124A600A71DAE /* SleepHabitTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10959A14246124A600A71DAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Stopa Inc";
+				TargetAttributes = {
+					10959A1B246124A600A71DAE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 10959A17246124A600A71DAE /* Build configuration list for PBXProject "Sleep_Habit_Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10959A13246124A600A71DAE;
+			productRefGroup = 10959A1D246124A600A71DAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10959A1B246124A600A71DAE /* Sleep_Habit_Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10959A1A246124A600A71DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10959A2C246124A700A71DAE /* LaunchScreen.storyboard in Resources */,
+				10959A29246124A700A71DAE /* Assets.xcassets in Resources */,
+				10959A27246124A600A71DAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66B69D89D327EEB61220A333 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sleep_Habit_Tracker/Pods-Sleep_Habit_Tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sleep_Habit_Tracker/Pods-Sleep_Habit_Tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sleep_Habit_Tracker/Pods-Sleep_Habit_Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDC25513118E15538EDF6237 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sleep_Habit_Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10959A18246124A600A71DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10959A342465EE8E00A71DAE /* HabitInfoTableViewController.swift in Sources */,
+				10959A24246124A600A71DAE /* CalendarViewController.swift in Sources */,
+				10959A20246124A600A71DAE /* AppDelegate.swift in Sources */,
+				10959A22246124A600A71DAE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10959A25246124A600A71DAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10959A26246124A600A71DAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10959A2A246124A700A71DAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10959A2B246124A700A71DAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10959A2E246124A700A71DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10959A2F246124A700A71DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10959A31246124A700A71DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A154F2AC72EE2101714E2B /* Pods-Sleep_Habit_Tracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sleep_Habit_Tracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nstopa.Sleep-Habit-Tracker";
+				PRODUCT_NAME = SleepHabitTracker;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10959A32246124A700A71DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0C8FF637615B3660A2F1D8 /* Pods-Sleep_Habit_Tracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sleep_Habit_Tracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nstopa.Sleep-Habit-Tracker";
+				PRODUCT_NAME = SleepHabitTracker;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10959A17246124A600A71DAE /* Build configuration list for PBXProject "Sleep_Habit_Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10959A2E246124A700A71DAE /* Debug */,
+				10959A2F246124A700A71DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10959A30246124A700A71DAE /* Build configuration list for PBXNativeTarget "Sleep_Habit_Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10959A31246124A700A71DAE /* Debug */,
+				10959A32246124A700A71DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10959A14246124A600A71DAE /* Project object */;
+}
