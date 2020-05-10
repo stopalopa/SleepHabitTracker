@@ -1,16 +1,20 @@
 PODS:
+  - Eureka (5.2.1)
   - FSCalendar (2.8.1)
 
 DEPENDENCIES:
+  - Eureka
   - FSCalendar
 
 SPEC REPOS:
   trunk:
+    - Eureka
     - FSCalendar
 
 SPEC CHECKSUMS:
+  Eureka: c883105488e05bc65539f583246ecf9657cabbfe
   FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
 
-PODFILE CHECKSUM: 542a48f1b0cd438da9378ab6ce008a7a3dddee30
+PODFILE CHECKSUM: 3210d3c3cf2b8c35e165b1049ec8d70500c5d114
 
 COCOAPODS: 1.9.1

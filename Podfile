@@ -7,4 +7,6 @@ target 'Sleep_Habit_Tracker' do
 
   # Pods for Sleep_Habit_Tracker
   pod 'FSCalendar'
+  pod 'Eureka'
+  
 end

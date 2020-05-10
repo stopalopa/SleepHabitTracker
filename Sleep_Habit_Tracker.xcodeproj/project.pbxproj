@@ -13,7 +13,7 @@
 		10959A27246124A600A71DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10959A25246124A600A71DAE /* Main.storyboard */; };
 		10959A29246124A700A71DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10959A28246124A700A71DAE /* Assets.xcassets */; };
 		10959A2C246124A700A71DAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10959A2A246124A700A71DAE /* LaunchScreen.storyboard */; };
-		10959A342465EE8E00A71DAE /* HabitInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10959A332465EE8E00A71DAE /* HabitInfoTableViewController.swift */; };
+		10959A342465EE8E00A71DAE /* HabitInfoFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10959A332465EE8E00A71DAE /* HabitInfoFormViewController.swift */; };
 		AFE5C6A8E73CD5128DABAA6E /* Pods_Sleep_Habit_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0015C75DC8BEDA804CC4B65 /* Pods_Sleep_Habit_Tracker.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 		10959A28246124A700A71DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10959A2B246124A700A71DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10959A2D246124A700A71DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10959A332465EE8E00A71DAE /* HabitInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitInfoTableViewController.swift; sourceTree = "<group>"; };
+		10959A332465EE8E00A71DAE /* HabitInfoFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitInfoFormViewController.swift; sourceTree = "<group>"; };
 		7A0C8FF637615B3660A2F1D8 /* Pods-Sleep_Habit_Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sleep_Habit_Tracker.release.xcconfig"; path = "Target Support Files/Pods-Sleep_Habit_Tracker/Pods-Sleep_Habit_Tracker.release.xcconfig"; sourceTree = "<group>"; };
 		A0015C75DC8BEDA804CC4B65 /* Pods_Sleep_Habit_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sleep_Habit_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A154F2AC72EE2101714E2B /* Pods-Sleep_Habit_Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sleep_Habit_Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Sleep_Habit_Tracker/Pods-Sleep_Habit_Tracker.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 				10959A28246124A700A71DAE /* Assets.xcassets */,
 				10959A2A246124A700A71DAE /* LaunchScreen.storyboard */,
 				10959A2D246124A700A71DAE /* Info.plist */,
-				10959A332465EE8E00A71DAE /* HabitInfoTableViewController.swift */,
+				10959A332465EE8E00A71DAE /* HabitInfoFormViewController.swift */,
 			);
 			path = Sleep_Habit_Tracker;
 			sourceTree = "<group>";
@@ -209,7 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10959A342465EE8E00A71DAE /* HabitInfoTableViewController.swift in Sources */,
+				10959A342465EE8E00A71DAE /* HabitInfoFormViewController.swift in Sources */,
 				10959A24246124A600A71DAE /* CalendarViewController.swift in Sources */,
 				10959A20246124A600A71DAE /* AppDelegate.swift in Sources */,
 				10959A22246124A600A71DAE /* SceneDelegate.swift in Sources */,

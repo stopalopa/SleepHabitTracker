@@ -38,33 +38,20 @@
             </objects>
             <point key="canvasLocation" x="1266.6666666666667" y="158.70535714285714"/>
         </scene>
-        <!--Habit Info Table View Controller-->
-        <scene sceneID="yfT-Ir-fRX">
+        <!--Habit Info Form View Controller-->
+        <scene sceneID="hqU-zQ-3bk">
             <objects>
-                <tableViewController storyboardIdentifier="HabitInfoController" id="7eb-UT-oSS" customClass="HabitInfoTableViewController" customModule="SleepHabitTracker" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="y3G-lw-q0s">
+                <viewController storyboardIdentifier="HabitInfoController" id="H9R-KY-8gH" customClass="HabitInfoFormViewController" customModule="SleepHabitTracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZPQ-g8-2Fi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="kwH-9G-ezk">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kwH-9G-ezk" id="Cqe-G9-f3U">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="7eb-UT-oSS" id="NZl-W8-KCT"/>
-                            <outlet property="delegate" destination="7eb-UT-oSS" id="zax-zR-jBO"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="X0S-ID-uJy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                        <viewLayoutGuide key="safeArea" id="Hwk-PU-mBb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="84q-c0-2DV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2237.68115942029" y="158.70535714285714"/>
+            <point key="canvasLocation" x="2234" y="161"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0jC-Lf-Ady">

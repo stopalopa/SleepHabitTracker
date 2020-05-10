@@ -26,11 +26,7 @@ class CalendarViewController: UIViewController, FSCalendarDelegate, FSCalendarDa
     }
 
     func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "EEEE MM-dd-YYYY at h: mm a"
-        let string = formatter.string(from: date)
-        print("\(string)")
-        let detailController = self.storyboard!.instantiateViewController(withIdentifier: "HabitInfoController") as! HabitInfoTableViewController
+        let detailController = self.storyboard!.instantiateViewController(withIdentifier: "HabitInfoController") as! HabitInfoFormViewController
           detailController.date = date
           self.navigationController!.pushViewController(detailController, animated: true)
     }
